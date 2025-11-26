@@ -1,0 +1,197 @@
+# name: Deploy School Website
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   kadc-bagerhat:
+#     name: kadc-bagerhat
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/kadc-bagerhat.edu.bd/public_html/"
+#         strip_components: 1
+
+#   baruhahighschool:
+#     name: baruhahighschool
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/baruhahighschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   shahbazpurhighschool:
+#     name: shahbazpurhighschool
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/shahbazpurhighschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   dattapararamratan:
+#     name: dattapararamratan
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/dattapararamratanschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   gopalpur:
+#     name: gopalpur
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/gopalpurdharikahighschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   dattaparacollege:
+#     name: dattaparacollege
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/dattaparacollege.edu.bd/public_html/"
+#         strip_components: 1
+
+#   lolbariahighschool:
+#     name: lolbariahighschool
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/lolbariahighschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   palparadmhighschool:
+#     name: palparadmhighschool
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/palparadmhighschool.edu.bd/public_html/"
+#         strip_components: 1
+
+#   mintumemorialhs:
+#     name: mintumemorialhs
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/mintumemorialhs.edu.bd/public_html/"
+#         strip_components: 1
+
+#   mmhhsm:
+#     name: mmhhsm
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout latest code
+#       uses: actions/checkout@v3
+
+#     - name: Deploy to Main Server via SFTP
+#       uses: appleboy/scp-action@v0.1.7
+#       with:
+#         host: ${{ secrets.SFTP_SERVER }}
+#         username: ${{ secrets.SFTP_USERNAME }}
+#         password: ${{ secrets.SFTP_PASSWORD }}
+#         port: 65002
+#         source: "."
+#         target: "/home/u626547560/domains/mmhhsm.edu.bd/public_html/"
+#         strip_components: 1
